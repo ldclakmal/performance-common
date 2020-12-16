@@ -119,7 +119,7 @@ if [ "$upgrade" = true ]; then
 fi
 
 # Default packages to install
-packages+=("jq" "zip" "unzip" "linux-tools-common" "linux-tools-aws" "linux-tools-$(uname -r)")
+packages+=("jq" "zip" "unzip" "linux-tools-common" "linux-tools-aws" "linux-tools-5.4.0-1029-aws")
 
 # Install OS Packages
 for p in ${packages[*]}; do
